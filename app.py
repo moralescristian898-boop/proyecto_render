@@ -2,7 +2,7 @@ from flask import flask, render_template
 
 app-flask(__name__)
 
-@app.toute(´/´)
+@app.route(´/´)
 def inicio():
   return render_template(´index.html´)
 
